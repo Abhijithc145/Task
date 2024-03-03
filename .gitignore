@@ -1,0 +1,10 @@
+venv/
+./migrations
+# Django Migrations
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+
+__pycache__/
+*/__pycache__/*
+db.sqlite3
